@@ -31,13 +31,13 @@ body {
 
 .card-container {
   background-color: hsl(0, 0%, 100%);
-  max-width: 320px;
+  max-width: 384px;
   /* max-height: 500px; */
   margin: auto;
   border-radius: 13px;
   border: solid 1px;
   box-shadow: 7px 7px 0px rgba(0, 0, 0, 1);
-  padding: 15px;
+  padding: 20px;
 }
 
 .card-image-container img {
@@ -57,7 +57,7 @@ body {
   border-radius: 4px;
 }
 
-.card-publication-date{
+.card-publication-date {
   color: hsl(0, 0%, 7%);
 }
 
@@ -67,6 +67,10 @@ body {
 
 .card-content h2 {
   color: hsl(0, 0%, 7%);
+}
+.card-content h2:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
 }
 
 .card-content p {
